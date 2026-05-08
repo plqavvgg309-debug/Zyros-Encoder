@@ -20,7 +20,7 @@ def keep_alive():
     t.start()
 
 # 2. إعدادات البوت
-API_TOKEN = '8638887897:AAFmPQZVSbt0ZhUNYHg6N_eEtrFcUAMowLU'
+API_TOKEN = '8638887897:AAFN75MN9waxxJ42CktWeLCSVroH990Bc9c'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start'])
